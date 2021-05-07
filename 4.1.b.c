@@ -16,7 +16,7 @@ if(socket_desc==-1)
 	 printf("Could not create socket");
 }
 
-server.sin_addr.s_addr=inet_addr("192.168.56.106");
+server.sin_addr.s_addr=inet_addr("192.168.56.103");
 server.sin_family=AF_INET;
 server.sin_port=htons(22);
 
